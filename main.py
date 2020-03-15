@@ -122,7 +122,7 @@ for n in range(1, len(nations)):
 
     # now plot
     y = list(map(int, de.cases))
-    plt.plot(de.dates, y, lw=0.5, marker='.', label=de.nation+':'+str(delay))
+    plt.plot(y, lw=0.5, marker='.', label=de.nation+':'+str(delay))
 
 plt.xticks(rotation=90)
 plt.legend()
